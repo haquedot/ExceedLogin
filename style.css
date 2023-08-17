@@ -27,6 +27,11 @@ label {
     letter-spacing: 0.16px;
 }
 
+.img-div {
+    align-items: center;
+    justify-content: center;
+}
+
 .form-control {
     height: 48px;
     border: 1px solid #707070;
@@ -50,14 +55,18 @@ label {
 }
 
 .login {
+    width: 100%;
     align-items: center;
 }
 
 .login a {
+    width: 100%;
+    display: flex;
     justify-content: left;
 }
 
 .login button {
+    display: flex;
     justify-content: right;
 }
 
